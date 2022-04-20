@@ -129,8 +129,9 @@ class Artikels extends Controller {
 
     public function insertAanvraag() {
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
+
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-            // var_dump($_POST);
+            // var_dump($_POST);exit();
             $artikels = $this->model('Artikelen');
             $artikels->artikelInsert($_POST);
             

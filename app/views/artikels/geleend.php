@@ -135,7 +135,7 @@
     <div class="info">
 </div>
 <form method="get" action="/artikels/insertAanvraag">
-    <button type="submit">Artikel Aanvragen</button>
+    <button type="submit">Artikel Toevoegen</button>
 </form>
 </div>
    

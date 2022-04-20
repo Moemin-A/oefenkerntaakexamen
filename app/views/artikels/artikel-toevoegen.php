@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Artikel Aanvraag</title>
+    <title>Artikel Toevoegen</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -18,7 +18,7 @@
     <div class="sidebar">
         <ul>
             <?php
-            include("./docent-navbar.php");
+            include("./admin-navbar.php");
             ?>
         </ul>
     </div>
@@ -27,7 +27,7 @@
     <div class="container">
     <div class="col-12" id="header-text" style="border-bottom-style:hidden; ">
     <h1 style="padding-bottom: 50px; padding-top: 50px;">
-                <center> Artikel Aanvragen</center>
+                <center> Artikel Toevoegen</center>
             </h1>
     </div>
     <center>
@@ -35,46 +35,36 @@
     <div class="col-12 col-sm-4">
         <tr>
             <td>
-                <label for="omschrijving">Omschrijving:</label>
-                <select name="omschrijving" id="omschrijving">
-                <option value="keuze">Kies een artikel</option>
-                <option value="elektronica"></option>
-                <option value="Studieboeken"></option>
-                <option value="keuzedeelproducten"></option>
-                <option value="schoolmaterialen"></option>
+                <label for="omschrijving">Omschrijving:</label><br>
+                <input type="text" id="omschrijving" name="omschrijving" required><br><br>
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="categorie">Categorie:</label><br>
+                <select name="categorieid" id="categorieid">
+                <option value="1">Elektronica</option>
+                <option value="2">Studieboeken</option>
+                <option value="3">Keuzedeel Producten</option>
+                <option value="4">Schoolmaterialen</option>
                 </select><br><br>
             </td>
         </tr> 
         <tr>
             <td>
-                <label for="categorie">Categorie:</label>
-                <select name="categorie" id="acat">
-                <option value="keuze">Kies een categorie</option>
-                <option value="elektronica">Elektronica</option>
-                <option value="Studieboeken">Studieboeken</option>
-                <option value="keuzedeelproducten">Keuzedeel Producten</option>
-                <option value="schoolmaterialen">Schoolmaterialen</option>
-                </select><br><br>
-            </td>
-        </tr> 
-        <tr>
-            <td>
-                <label for="Aantal">Hoeveelheid:</label>
-                <input type="number" id="Aantal" name="Aantal" required><br><br>
+                <label for="tgl">Tijd Geleend</label><br>
+                <input type="number" id="tijdgeleend" name="tijdgeleend" required><br><br>
             </td>
         </tr>
         <tr>
             <td>
-                <label for="PersoonId">Persoon Num:</label>
-                <input type="number" id="PersoonId" name="PersoonId" required><br><br>
+                <label for="prs">Persoon</label><br>
+                <input type="number" id="persoon" name="persoon"  required><br>
           </td>
         </tr>
-        </td>
-            </tr>
-        <input type="hidden" name="magazijnartikelid">
-            <tr>
+             </td>
         <td>
-        <input type="hidden" name="id">
+        <!-- <input type="hidden" name="id" value=""><br> -->
         <tr>
             <td>
                 <input type="submit" name="submit" value="Submit">

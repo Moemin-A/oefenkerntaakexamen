@@ -79,23 +79,27 @@
         public function artikelInsert($post) {
             try {
             // prepare sql and bind parameters
-            $this->db->query("INSERT INTO aanvraag(Id, MagazijnArtikelId , Aantal, PersoonId) 
-                              VALUES (:id, :magazijnartikelid, :aantal, :persoonid");
+            //var_dump($post);// echo "Hallo";exit();
 
-            $this->db->bind(":id", NULL, PDO::PARAM_INT);
-            $this->db->bind(":magazijnartikelid", NULL, PDO::PARAM_INT);
-            $this->db->bind(":aantal", $post ["Aantal"], PDO::PARAM_INT);
-            $this->db->bind(":persoonid",$post ["PersoonId"], PDO::PARAM_INT);
+            $this->db->query("INSERT INTO artikel  (Id, Omschrijving, TijdGeleend, Persoon, CategorieId) 
+                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid)");
 
-            $this->db->execute();
+            $this->db->bind(":id", NULL);
+            $this->db->bind(":omschrijving", $post["omschrijving"]);
+            $this->db->bind(":tijdgeleend", ($post["tijdgeleend"]));
+            $this->db->bind(":persoon", ($post["persoon"]));
+            $this->db->bind(":categorieid", ($post["categorieid"]));
+            
+
+            $this->db->execute();//exit();
 
             // Checks for success / errors and prints message accordingly
                 echo '<script>alert("New records created successfully")</script>';
-                header("Refresh:3; http://oefenkerntaakexamen.nl/pages/aanvragen"); 
+                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels/index"); 
             }
             catch(PDOException $e) { 
-                echo '<script>alert("Insert Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://oefenkerntaakexamen.nl/pages/aanvragen"); 
+                echo '<script>alert("Insert Failed")</script>' . $e->getMessage();exit();
+                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels/index"); 
             }
         }
     }
