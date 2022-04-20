@@ -17,8 +17,8 @@ Class ScanArtikelen extends controller{
 
         try{
             $records = "";
-
-                $record = $this->overzichtModel->getArtikelenLeen($_POST["naam"]);
+                $this->overzichtModel->naam = $_POST["naam"];
+                $record = $this->overzichtModel->getArtikelenLeen();
 
                 if(!empty($record)){
                     
