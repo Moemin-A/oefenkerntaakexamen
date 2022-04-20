@@ -20,7 +20,6 @@ include("homesidenavbar.php");
   <body>
     <?=$data["alert"]?>
 
-
 </div>
   <!-- Navbar van de pagina -->
   <div class="wrapper">
@@ -31,13 +30,10 @@ include("homesidenavbar.php");
                 <li><a href=""><i class="fas fa-list"></i></a></li>
                 <li><a href=""><i class="fas fa-list"></i></a></li>
                 <li><a href=""><i class="fas fa-list"></i></a></li>
-                <li><a href=""><i class="fas fa-list"></i></a></li>
-                
+                <li><a href=""><i class="fas fa-list"></i></a></li>       
             </ul>
         </div>
     </div>
-
-
 <!--Hoofd tekst van de pagina -->   
     <div class="container">
   <div class="row">
