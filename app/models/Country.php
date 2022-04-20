@@ -38,38 +38,36 @@ Class Country {
     }
 // hier update hij de kolom
     Public function getSingleCountry($Id){
+        //echo $Id; exit();
         $this->db->query('SELECT * FROM itemtabel WHERE Id = :Id');
-        $this->db->bind(":Id", $Id);
-        return $this->db->resultSet();
+        $this->db->bind(":Id", $Id, PDO::PARAM_INT);
+        return $this->db->result();
     }
-
+// functie voor het maken van een update
     public function updateCountry($post){
     $this->db->query("UPDATE `itemtabel` 
-                          SET Omschrijving = Omschrijving, 
-                              CatogorieId = CatogorieId, 
-                              AantalInLeen = AantalInLeen,
-                              AantalInBeschikking = AantalInBeschikking,    
-                               WHERE `Id` = Id;");
-
+                          SET Omschrijving = :Omschrijving, 
+                              CatogorieId = :CatogorieId, 
+                              AantalInLeen = :AantalInLeen,
+                              AantalInBeschikking = :AantalInBeschikking    
+                               WHERE `Id` = :Id;");
     $this->db->bind(':Id', $post["Id"]);
     $this->db->bind(':Omschrijving', $post["Omschrijving"]);
     $this->db->bind(':CatogorieId', $post["CatogorieId"]);
     $this->db->bind(':AantalInLeen', $post["AantalInLeen"]);
     $this->db->bind(':AantalInBeschikking', $post["AantalInBeschikking"]);
-
     return $this->db->execute();
     }
-
+//  functie voor het maken een create
     public function createCountry($post){
         $this->db->query("INSERT INTO itemtabel(Id,Omschrijving,CatogorieId,AantalInLeen,AantalInBeschikking) VALUES(:Id, :Omschrijving, :CatogorieId, :AantalInLeen, :AantalInBeschikking)");
-
         $this->db->bind(':Id', NULL, PDO::PARAM_INT);
         $this->db->bind(':Omschrijving', $post["Omschrijving"]);
         $this->db->bind(':CatogorieId', $post["CatogorieId"], PDO::PARAM_INT);
         $this->db->bind(':AantalInLeen', $post["AantalInLeen"], PDO::PARAM_INT);
         $this->db->bind(':AantalInBeschikking', $post["AantalInBeschikking"], PDO::PARAM_INT);
-    
-        return $this->db->execute();
+        $this->db->execute();
+        return $this->db->lastInsertedId();
     }
 
 }

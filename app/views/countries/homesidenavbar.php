@@ -10,6 +10,7 @@
 
 <body>
 
+<!--Navbar  -->
     <div class="wrapper">
         <div class="sidebar">
             <h2>mbo-utrecht-magazijn</h2>

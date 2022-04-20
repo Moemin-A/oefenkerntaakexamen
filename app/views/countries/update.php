@@ -36,32 +36,34 @@
     <div class="container">
       <div class="row">
         <div class="col-5">
-        <form action="<?= URLROOT; ?>/countries/update" method="post">
+
+        <!--Hier zijn de invoervelden voor update -->
+        <form action="<?= URLROOT; ?>/countries/update" method="POST">
             <div class="form-group">
               <label for="Omschrijving" class="text-black" style="font-size:1vw">omschrijving</label>
               <input type="text" name="Omschrijving" id="Omschrijving" value="<?= $data["row"]->Omschrijving; ?>">
             </div>
-
+        <!--Hier zijn de invoervelden voor update -->
             <div class="form-group">
               <label for="CatogorieId" class="text-black" style="font-size:1vw" >Catogorie</label>
               <input type="text" name="CatogorieId" id="CatogorieId" value="<?= $data["row"]->CatogorieId; ?>">
             </div>
-
+        <!--Hier zijn de invoervelden voor update -->
             <div class="form-group">
               <label for="AantalInLeen" class="text-black" style="font-size:1vw" >Aantal in leen</label>
               <input type="text" name="AantalInLeen" id="AantalInLeen" value="<?= $data["row"]->AantalInLeen; ?>">
             </div>
-
+        <!--Hier zijn de invoervelden voor update -->
             <div class="form-group">
               <label for="AantalInBeschikking" class="text-black" style="font-size:1vw" >Aantal in beschikking</label>
               <input type="text" name="AantalInBeschikking" id="AantalInBeschikking" value="<?= $data["row"]->AantalInBeschikking; ?>">
             </div>
-
+        <!--Hier zijn de invoervelden voor update -->
             <div class="form-group">
               <label for="Id" class="text-black" style="font-size:1vw" >Id</label>
               <input type="hidden" name="Id" id="Id" value="<?= $data["row"]->Id; ?>">
             </div>
-
+          <!--Hier is de button voor update -->
             <button type="submit" class="btn btn-primary">Versturen</button>
           </form>
         </div>

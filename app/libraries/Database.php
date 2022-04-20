@@ -70,6 +70,10 @@ class Database {
     public function rowCount(){
         return $this->rowCount();
     }
+
+    public function lastInsertedId() {
+        return $this->dbHandler->lastInsertId();
+    }
 } 
 
 

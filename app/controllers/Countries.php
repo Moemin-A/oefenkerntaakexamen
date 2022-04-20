@@ -32,11 +32,11 @@ Class Countries extends Controller{
                 <td> " . $record->CatogorieId . "</td>
                 <td> " . $record->AantalInLeen . "</td>
                 <td> " . $record->AantalInBeschikking . "</td>
-
                 <td><form method='POST' action='" . URLROOT . "/countries/update'>
                  <input type='hidden' name='Id' value='". $record->Id ."' />
-                 <input type='submit' name='update' value='Wijzigen' /></form></td>
-
+                 <input type='submit' name='update' value='Wijzigen' /></form>
+                 <a href='" . URLROOT . "/countries/update/" . $record->Id . "'>update</a>
+                 </td>
                  <td><form method='POST' action='" . URLROOT . "/countries/delete'>
                  <input type='hidden' name='Id' value='". $record->Id ."' />
                  <input type='submit' name='delete' value='Verwijderen' /></form></td>";
@@ -121,40 +121,40 @@ Class Countries extends Controller{
 // functie voor delete verwijderen van een record
     public function delete() {
         $Id = $_POST["Id"];
-      
         $this->overzichtModel->deleteCountry($Id);
-        $data =[ 'DeleteStatus' => "het record met id = $Id is verwijderd"
+        $data =[ 'DeleteStatus' => "<div class='alert alert-success text-center'  role='alert'>
+        U heeft succes vol de record verwijderd. Hierbij heeft u het record met id = $Id is verwijderd
+      </div>"
         ];
         $this->view("countries/delete", $data);
         header("Refresh:4; url=". URLROOT . "/countries/index");
     }
 // functie voor het updaten van een record
-    public function update(){
+    public function update($Id = NULL){
       if($_SERVER["REQUEST_METHOD"] == "POST"){
         $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+        //var_dump($_POST);exit();
         $this->overzichtModel->updateCountry($_POST);
+        //echo $Id . "U heeft de records succesvol veranderd";exit();
+        header("Location: ". URLROOT ."/countries/index");
       } else {
-        $Id = $_POST["Id"];
+        //$Id = $_POST["Id"];
         $row = $this->overzichtModel->getSingleCountry($Id);
+        //var_dump($row);exit();
         $data = [
-            'row => $row'
+            'row' => $row
         ];
-        
       } 
-      $this->view("countries/update");
+      $this->view("countries/update", $data);
     }
 // functie voor het maken van een record
     public function create(){
         if($_SERVER["REQUEST_METHOD"] == "POST"){
-            Var_dump($_POST);
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-
-            $this->overzichtModel->createCountry($_POST);
-
-            header("Location:" . URLROOT . "/countries/index");
+            $id = $this->overzichtModel->createCountry($_POST);
+            header("Location: ". URLROOT ."/countries/index");
+            //header("Location: " . URLROOT . "/countries/index");
         } else {
-
-        
         $data = [
             'Title' => "voeg een nieuw omschrijving in"
         ];

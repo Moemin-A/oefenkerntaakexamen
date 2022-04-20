@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -36,29 +37,28 @@
     <div class="container">
       <div class="row">
         <div class="col-5">
+        <!--Hier zijn de invoervelden voor create -->
         <form action="<?= URLROOT; ?>/countries/create" method="post">
             <div class="form-group">
               <label for="Omschrijving" class="text-black" style="font-size:1vw">omschrijving</label>
               <input type="text" name="Omschrijving" id="Omschrijving">
             </div>
-
+        <!--Hier zijn de invoervelden voor create -->
             <div class="form-group">
               <label for="CatogorieId" class="text-black" style="font-size:1vw" >Catogorie</label>
               <input type="text" name="CatogorieId" id="CatogorieId">
             </div>
-
+        <!--Hier zijn de invoervelden voor create -->
             <div class="form-group">
               <label for="AantalInLeen" class="text-black" style="font-size:1vw" >Aantal in leen</label>
               <input type="text" name="AantalInLeen" id="AantalInLeen" >
             </div>
-
+        <!--Hier zijn de invoervelden voor create -->
             <div class="form-group">
               <label for="AantalInBeschikking" class="text-black" style="font-size:1vw" >Aantal in beschikking</label>
               <input type="text" name="AantalInBeschikking" id="AantalInBeschikking" >
             </div>
-
-
-
+        <!--Button -->
             <button type="submit" class="btn btn-primary">Versturen</button>
           </form>
         </div>
