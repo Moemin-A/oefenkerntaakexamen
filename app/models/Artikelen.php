@@ -52,7 +52,7 @@
 
             // Checks for success / errors and prints message accordingly
             echo '<script>alert("Updated successfully")</script>';
-            header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
+            header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             } catch(PDOException $e) { 
                 echo '<script>alert("Update Failed")</script>' . $e->getMessage(); 
                 header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
@@ -95,7 +95,7 @@
 
             // Checks for success / errors and prints message accordingly
                 echo '<script>alert("New records created successfully")</script>';
-                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels/index"); 
+                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels/index"); 
             }
             catch(PDOException $e) { 
                 echo '<script>alert("Insert Failed")</script>' . $e->getMessage();exit();
