@@ -47,7 +47,6 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Categorie</th>
       <th scope="col">Aantal In Beschikking</th>
       <th scope="col">Aantal Uitgeleend</th>
     </tr>
@@ -73,7 +72,6 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Categorie</th>
       <th scope="col">Aantal In Beschikking</th>
       <th scope="col">Aantal Uitgeleend</th>
     </tr>
@@ -99,7 +97,6 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">omschrijving</th>
-      <th scope="col">categorie</th>
       <th scope="col">Aantal In Beschikking</th>
       <th scope="col">Aantal Uitgeleend</th>
     </tr>
@@ -125,7 +122,6 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Categorie</th>
       <th scope="col">Aantal In Beschikking</th>
       <th scope="col">Aantal Uitgeleend</th>
       <th> </th>

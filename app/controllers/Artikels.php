@@ -17,7 +17,6 @@ class Artikels extends Controller {
                 $records1 .= "<tr>
                 <th scope='row'>" . $record->Id . " </th>
                 <td> " . $record->Omschrijving . "</td>
-                <td> " . $record->CategorieId . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>
@@ -37,7 +36,6 @@ class Artikels extends Controller {
                 $records2 .= "<tr>
                 <th scope='row'>" . $record->Id . " </th>
                 <td> " . $record->Omschrijving . "</td>
-                <td> " . $record->CategorieId . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
@@ -55,7 +53,6 @@ class Artikels extends Controller {
                 $records3 .= "<tr>
                 <th scope='row'>" . $record->Id . " </th>
                 <td> " . $record->Omschrijving . "</td>
-                <td> " . $record->CategorieId . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
@@ -73,7 +70,6 @@ class Artikels extends Controller {
                 $records4 .= "<tr>
                 <th scope='row'>" . $record->Id . " </th>
                 <td> " . $record->Omschrijving . "</td>
-                <td> " . $record->CategorieId . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
