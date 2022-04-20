@@ -19,7 +19,7 @@
                 $this->dbHandler = new PDO($conn, $this->dbUser, $this->dbPass, $options);
             } catch (PDOException $e) {
                 $this->error = $e->getMessage();
-                echo "DB connection failed." . $this->error;
+                echo $this->error;
             }
         }
 

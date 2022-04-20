@@ -1,15 +1,14 @@
 <?php
 class Pages extends Controller {
-
-    public function index() {
-
-        $this->view('admin-lent-items');
+    public function __construct() {
+        //$this->userModel = $this->model('User');
     }
 
-    // public function aanvragen() {
+    public function index() {
+        $data = [
+            'title' => 'Home page'
+        ];
 
-    //     $this->view('/artikels/artikel-aanvraag');
-    // }
-
-
+        $this->view('index', $data);
+    }
 }
