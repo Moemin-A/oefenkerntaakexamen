@@ -5,10 +5,9 @@ class Artikels extends Controller {
     public function __contstruct(){
       $this->artikelModel = $this->model('Artikelen');
     }
-
+    // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
     public function index() {
-
-        // Artikels tonen in de juiste categoriën         
+        
        $artikels = $this->model('Artikelen');
 
         try{
@@ -98,7 +97,7 @@ class Artikels extends Controller {
 
         $this->view('/artikels/geleend', $data);
     }
-    
+    // Artikels updaten en naar de update view sturen
     public function update($Id = null){
         // Als $_SERVER in POST zit voer update script uit,
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -120,14 +119,16 @@ class Artikels extends Controller {
         }
 
     }
-
+    //  DeleteController die de Id meeneemt en naar deleteArtikel() modell stuurd
     public function delete($Id){
         $artikels = $this->model('Artikelen');
         $artikels->deleteArtikel($Id);
 
     }
-
+    // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
+    // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
     public function insertAanvraag() {
+        
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);

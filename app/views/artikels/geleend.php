@@ -43,6 +43,7 @@
     </div>
 
       <center> <table class="table table-striped">
+        <!-- Alle records aanroepen bij de labels -->
   <thead>
     <tr>
       <th scope="col">ID</th>

@@ -30,6 +30,7 @@
             </h1>
     </div>
     <center>
+        <!-- Alle labels om artikelen te updaten versturen naar de updatecontroller -->
     <form action="/artikels/update/<?=$data["row"]->Id?>" method="post" >
         <table>
             <!-- Omschrijving -->

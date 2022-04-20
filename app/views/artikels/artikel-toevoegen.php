@@ -31,6 +31,7 @@
             </h1>
     </div>
     <center>
+        <!-- Alle labels om artikelen toe te voegen aan geleend.php via insertcontroller -->
     <form method="post" action="/artikels/insertaanvraag">
     <div class="col-12 col-sm-4">
         <tr>
