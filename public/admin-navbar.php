@@ -15,7 +15,7 @@
         <div class="sidebar">
             <h2>control panel</h2>
             <ul>
-                <li><a href="http://www.mboutrechtmagazijn.nl/pages/index"><i class="fas fa-list"></i>Item management</a></li>
+                <li><a href="http://oefenkerntaakexamen.nl//pages/index"><i class="fas fa-list"></i>Item management</a></li>
             </ul>
         </div>
     </div>

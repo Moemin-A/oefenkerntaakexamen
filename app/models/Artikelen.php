@@ -35,22 +35,27 @@
             try {
                 $this->db->query("UPDATE artikel
                 SET 
-                    AantalInBeschikking = :aantalinbeschikking,
-                    AantalInLeen = :aantaluitgeleend
+                    Omschrijving = :omschrijving,
+                    CategorieId = :categorieid,
+                    TijdGeleend = :tijdgeleend,
+                    Persoon = :persoon
+                    
                 WHERE Id = :id");
 
             $this->db->bind(":id", $post["id"], PDO::PARAM_INT);
-            $this->db->bind(":aantalinbeschikking", $post["aantalinbeschikking"], PDO::PARAM_INT);
-            $this->db->bind(":aantaluitgeleend", $post["aantaluitgeleend"], PDO::PARAM_INT);
+            $this->db->bind(":omschrijving", $post["omschrijving"]);
+            $this->db->bind(":categorieid", $post["categorieid"], PDO::PARAM_INT);
+            $this->db->bind(":tijdgeleend", $post["tijdgeleend"], PDO::PARAM_INT);
+            $this->db->bind(":persoon", $post["persoon"], PDO::PARAM_INT);
 
             $this->db->execute();
 
             // Checks for success / errors and prints message accordingly
             echo '<script>alert("Updated successfully")</script>';
-            header("Refresh:3; http://www.mboutrechtmagazijn.nl/artikels"); 
+            header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
             } catch(PDOException $e) { 
                 echo '<script>alert("Update Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://www.mboutrechtmagazijn.nl/artikels"); 
+                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
             }
           
         }
@@ -63,10 +68,10 @@
 
                 // Checks for success / errors and prints message accordingly
                 echo '<script>alert("Deleted artikel successfully")</script>';
-                header("Refresh:1; http://www.mboutrechtmagazijn.nl/artikels"); 
+                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             } catch(PDOException $e) { 
                 echo '<script>alert("Delete Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://www.mboutrechtmagazijn.nl/artikels"); 
+                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
             }
             
         }
@@ -86,11 +91,11 @@
 
             // Checks for success / errors and prints message accordingly
                 echo '<script>alert("New records created successfully")</script>';
-                header("Refresh:3; http://www.mboutrechtmagazijn.nl/pages/aanvragen"); 
+                header("Refresh:3; http://oefenkerntaakexamen.nl/pages/aanvragen"); 
             }
             catch(PDOException $e) { 
                 echo '<script>alert("Insert Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://www.mboutrechtmagazijn.nl/pages/aanvragen"); 
+                header("Refresh:3; http://oefenkerntaakexamen.nl/pages/aanvragen"); 
             }
         }
     }

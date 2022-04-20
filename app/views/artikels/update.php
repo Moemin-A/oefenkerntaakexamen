@@ -32,10 +32,23 @@
     <center>
     <form action="/artikels/update/<?=$data["row"]->Id?>" method="post" >
         <table>
-            <label for="aib">Aantal in Beschikking</label><br>
-            <input type="number" id="aantalinbeschikking" name="aantalinbeschikking" value="<?=$data["row"]->AantalInBeschikking?>" required><br><br>
-            <label for="au">Aantal Uitgeleend</label><br>
-            <input type="number" id="aantaluitgeleend" name="aantaluitgeleend" value="<?=$data["row"]->AantalInLeen?>"required><br><br>
+            <!-- Omschrijving -->
+            <label for="oms">Omschrijving</label><br>
+            <input type="text" id="omschrijving" name="omschrijving" value="<?=$data["row"]->Omschrijving?>" required><br><br>
+            <!-- Categorie -->
+            <label for="cat">Categorie</label><br>
+            <select name="categorieid" id="categorieid" value="<?=$data["row"]->CategorieId?>"required>>
+            <option value="1">Elektronica</option>
+            <option value="2">Studieboeken</option>
+            <option value="3">keuzedeelproducten</option>
+            <option value="4">Schoolmaterialen</option>
+            </select><br><br>
+            <!-- Tijd Geleend -->
+            <label for="tgl">Tijd Geleend</label><br>
+            <input type="number" id="tijdgeleend" name="tijdgeleend" value="<?=$data["row"]->TijdGeleend?>"required><br><br>
+            <!-- Persoon -->
+            <label for="prs">Persoon</label><br>
+            <input type="number" id="persoon" name="persoon" value="<?=$data["row"]->Persoon?>"required><br><br>
             <input type="hidden" name="id" value="<?=$data["row"]->Id?>">
             <input type="submit" name="submit" value="Submit">
         </table>
