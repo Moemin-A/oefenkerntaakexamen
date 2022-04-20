@@ -110,15 +110,22 @@ class Overzicht extends Controller
     {
         // filter input array maakt de array schoon zodat er geen gekke chars kunnen onstaan en mensen nogsteeds naamsgewijs inkunnen voeren 't veld etc..
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-            
-            try {
+            if (!$this->validate(['voornaam', 'achternaam', 'email', 'klas'])) {
 
-                filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-                $this->overzichtModel->updateMedewerker($_POST);
-                header("Location: " . URLROOT . "./overzicht/index/update-succes");
-            } catch (PDOException $e) {
+                // message voor als het niet lukt
+                echo "het inserten van je artikel is niet gelukt";
+                header("Refresh:2; url=" . URLROOT .  "/overzicht/index/creating-failed");
+            } else {
 
-                header("Location: " . URLROOT . "./overzicht/index/update-failed");
+                try {
+
+                    filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+                    $this->overzichtModel->updateMedewerker($_POST);
+                    header("Location: " . URLROOT . "./overzicht/index/update-succes");
+                } catch (PDOException $e) {
+
+                    header("Location: " . URLROOT . "./overzicht/index/update-failed");
+                }
             }
         } else {
 
@@ -130,7 +137,6 @@ class Overzicht extends Controller
 
 
                     $records = $this->fillSelector($row->klas);
-
                 } else {
 
                     header("Location: " . URLROOT . "./overzicht/index");
@@ -154,26 +160,48 @@ class Overzicht extends Controller
 
 
 
+
+    public function validate($values = [])
+    {
+        $validate = true;
+        foreach ($values as $value) {
+            if (empty($_POST[$value]))
+                $validate = false;
+            break;
+        }
+        return $validate;
+    }
+
     // create function voor als gebruiker een create maakt en hem vervolgens invoerd, deze function controleert de invoervelden en of het veilig is
     public function create()
     {
 
+
         // checkt of er een post array komt, request method van toepassing
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-            // try zorgt ervoor dat de waarde juist ingevoerd moeten worden, dit checkt die.
-            try {
-                $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+            // dit haalt via de $this de functie validate eruit, vervolgens in een array, checked hij of deze waardes leeg zijn
+            if (!$this->validate(['voornaam',  'achternaam', 'email', 'klas'])) {
 
-                $this->overzichtModel->createMedewerker($_POST);
-
-
-                header("Location:" . URLROOT . "/overzicht/index/creating-succes");
-
-                // catch rolt hem door als er binnen de try een fout heeft plaatsgevonden. vervolgens refresht die de url
-            } catch (PDOException $e) {
+                // message voor als het niet lukt
                 echo "het inserten van je artikel is niet gelukt";
                 header("Refresh:2; url=" . URLROOT .  "/overzicht/index/creating-failed");
+            } else {
+
+                // try zorgt ervoor dat de waarde juist ingevoerd moeten worden, dit checkt die.
+                try {
+                    $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+
+                    $this->overzichtModel->createMedewerker($_POST);
+
+
+                    header("Location:" . URLROOT . "/overzicht/index/creating-succes");
+
+                    // catch rolt hem door als er binnen de try een fout heeft plaatsgevonden. vervolgens refresht die de url
+                } catch (PDOException $e) {
+                    echo "het inserten van je artikel is niet gelukt";
+                    header("Refresh:2; url=" . URLROOT .  "/overzicht/index/creating-failed");
+                }
             }
 
             // deze else functie zorgt ervoor dat er met $data array een invoel kan worden gedaan, in dit geval een title die weergeven word op de create pagina
@@ -202,7 +230,7 @@ class Overzicht extends Controller
         return $records;
     }
 
-        // deze functie laad een nieuwe pagina, in dit geval "overzicht/scan.php" via $this-> view spreek je view function 
+    // deze functie laad een nieuwe pagina, in dit geval "overzicht/scan.php" via $this-> view spreek je view function 
     // in je libraries/controller.php aan, hierin maak je een functie die de url laad en de juiste map weergeeft
     public function scan()
     {
