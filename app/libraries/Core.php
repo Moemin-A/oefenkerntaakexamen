@@ -1,52 +1,60 @@
 <?php
+/**
+ * 
+ */
+class Core {
+  protected $currentController = 'Homepages';
+  protected $currentMethod = 'index';
+  protected $params = [];
 
-class Core
-{
-    protected $currentController = 'Home';
-    protected $currentMethod = 'index';
-    protected $params = [];
+  public function __construct()
+  {
+    /**
+     * 
+     */
+    // var_dump($this->getURL());
+    $url = $this->getURL();
+    // var_dump($url);exit();
+    // var_dump($url);echo '../app/controllers/' . ucwords($url[0]) . '.php';exit();
+    // We hebben ../nodig omdat we Core.php require vanuit index.php
+    if (file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
+      // Zet de currentController gelijk aan het eerste woord na het domein
+      $this->currentController = ucwords($url[0]);
+      // echo $this->currentController;exit();
+      unset($url[0]);
+    }
+    // Als de controller niet bestaat, dan is hij gelijk aan pages
+    require_once '../app/controllers/' . $this->currentController . ".php";
 
-    public function __construct()
-    {
-        $url = $this->getUrl();
-        // var_dump($url);exit();
-        //look in 'controllers' for first value, ucwords will capitalize first letter
-        if (file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
-            //Will set a new controller
-            $this->currentController = ucwords($url[0]);
-            unset($url[0]);
-        }
-        //Require the controller
-        require_once '../app/controllers/' . $this->currentController . '.php';
-        $this->currentController = new $this->currentController;
+    // Maak een nieuwe instantie van de controllerClass
+    $this->currentController = new $this->currentController();
 
-        if (isset($url[1])) {
-            if (method_exists($this->currentController, $url[1])) {
-                $this->currentMethod = $url[1];
-                unset($url[1]);
-            }
-        }
-
-        //Get the parameters
-        $this->params = $url ? array_values($url) : [];
-
-        //Call a callback with array of params
-        call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
+    // Kijk naar het tweede gedeelte van de url en zet de method
+    if (isset($url[1])) {
+      if (method_exists($this->currentController, $url[1])) {
+        $this->currentMethod = $url[1];
+        unset($url[1]);
+      }
     }
 
+    $this->params = $url ? array_values($url): [];
 
-    public function getUrl()
-    {
-        if (isset($_GET['url'])) {
-            $url = rtrim($_GET['url'], '/');
-            //filters the url for characters that shoudln't be there
-            $url = filter_var($url, FILTER_SANITIZE_URL);
-            //breaking url into an array 
-            $url = explode('/', $url);
-            return $url;
-        } else {
-            $url = array('artikel', 'index');
-            return $url;
-        }
+    call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
+  }
+
+  public function getURL() {
+    // de $_GET['url'] komt van /public/.htaccess regel 7
+    if (isset($_GET['url'])) {
+      // Haal de backslash vooraan de url af
+      $url = rtrim($_GET['url'], '/');
+
+      $url = filter_var($url, FILTER_SANITIZE_URL);
+      
+      $url = explode('/', $url);      
+      return $url;
+    } else {      
+      return array('homepages', 'index');
     }
+
+  }
 }
