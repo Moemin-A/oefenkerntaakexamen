@@ -11,7 +11,7 @@ class updateArtikelTest extends TestCase {
 public $updateArtikel; 
 
 public function setUp() {
-    $this->updateArtikel = new updateArtikel();
+    // $this->updateArtikel = new updateArtikel();
 }
 
 public function tearDown() {
