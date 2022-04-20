@@ -47,8 +47,10 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Aantal In Beschikking</th>
-      <th scope="col">Aantal Uitgeleend</th>
+      <th scope="col">Tijd Geleend</th>
+      <th scope="col">Persoon</th>
+      <th> </th>
+      <th> </th>
     </tr>
   </thead>
   <tbody>
@@ -72,8 +74,10 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Aantal In Beschikking</th>
-      <th scope="col">Aantal Uitgeleend</th>
+      <th scope="col">Tijd Geleend</th>
+      <th scope="col">Persoon</th>
+      <th> </th>
+      <th> </th>
     </tr>
   </thead>
   <tbody>
@@ -97,8 +101,10 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">omschrijving</th>
-      <th scope="col">Aantal In Beschikking</th>
-      <th scope="col">Aantal Uitgeleend</th>
+      <th scope="col">Tijd Geleend</th>
+      <th scope="col">Persoon</th>
+      <th> </th>
+      <th> </th>
     </tr>
   </thead>
   <tbody>
@@ -122,8 +128,8 @@
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Omschrijving</th>
-      <th scope="col">Aantal In Beschikking</th>
-      <th scope="col">Aantal Uitgeleend</th>
+      <th scope="col">Tijd Geleend</th>
+      <th scope="col">Persoon</th>  
       <th> </th>
       <th> </th>
     </tr>

@@ -53,13 +53,13 @@
         <tr>
             <td>
                 <label for="tgl">Tijd Geleend</label><br>
-                <input type="number" id="tijdgeleend" name="tijdgeleend" required><br><br>
+                <input type="text" id="tijdgeleend" name="tijdgeleend" required><br><br>
             </td>
         </tr>
         <tr>
             <td>
                 <label for="prs">Persoon</label><br>
-                <input type="number" id="persoon" name="persoon"  required><br>
+                <input type="number" id="persoon" name="persoon"  required><br><br>
           </td>
         </tr>
              </td>

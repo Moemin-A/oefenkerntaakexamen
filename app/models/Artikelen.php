@@ -45,7 +45,7 @@
             $this->db->bind(":id", $post["id"], PDO::PARAM_INT);
             $this->db->bind(":omschrijving", $post["omschrijving"]);
             $this->db->bind(":categorieid", $post["categorieid"], PDO::PARAM_INT);
-            $this->db->bind(":tijdgeleend", $post["tijdgeleend"], PDO::PARAM_INT);
+            $this->db->bind(":tijdgeleend", $post["tijdgeleend"]);
             $this->db->bind(":persoon", $post["persoon"], PDO::PARAM_INT);
 
             $this->db->execute();

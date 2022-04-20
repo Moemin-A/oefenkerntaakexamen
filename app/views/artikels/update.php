@@ -45,7 +45,7 @@
             </select><br><br>
             <!-- Tijd Geleend -->
             <label for="tgl">Tijd Geleend</label><br>
-            <input type="number" id="tijdgeleend" name="tijdgeleend" value="<?=$data["row"]->TijdGeleend?>"required><br><br>
+            <input type="text" id="tijdgeleend" name="tijdgeleend" value="<?=$data["row"]->TijdGeleend?>"required><br><br>
             <!-- Persoon -->
             <label for="prs">Persoon</label><br>
             <input type="number" id="persoon" name="persoon" value="<?=$data["row"]->Persoon?>"required><br><br>
