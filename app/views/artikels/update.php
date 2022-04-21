@@ -48,7 +48,7 @@
             <label for="tgl">Tijd Geleend</label><br>
             <input type="text" id="tijdgeleend" name="tijdgeleend" value="<?=$data["row"]->TijdGeleend?>"required><br><br>
             <!-- Persoon -->
-            <label for="prs">Persoon</label><br>
+            <label for="prs">PersoonNummer</label><br>
             <input type="number" id="persoon" name="persoon" value="<?=$data["row"]->Persoon?>"required><br><br>
             <input type="hidden" name="id" value="<?=$data["row"]->Id?>">
             <input type="submit" name="submit" value="Submit">
