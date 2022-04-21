@@ -17,14 +17,19 @@ Class ScanArtikelen extends controller{
 
         try{
             $records = "";
-                $this->overzichtModel->naam = $_POST["naam"];
-                $record = $this->overzichtModel->getArtikelenLeen();
+            $artikelLeen = $_POST["artikelNaam"];
+                $this->overzichtModel->naam = $_POST["artikelNaam"];
+                $record = $this->overzichtModel->getArtikelenLeen($artikelLeen);
+               // var_dump($record);
 
                 if(!empty($record)){
                     
-                $records .= "<tr>
-                
-                <td> " . $record->Naam . "</td>";
+                    $records .= "<tr>
+                    <th scope='row'>" . $record->id . "</th>
+                    <td> " . $record->artikelNaam . "</td>
+                    <td> " . $record->code . "</td>
+                    <td> " . $record->datum . "</td>";
+                 
 
                 } else{
                     echo "record empty";
@@ -40,5 +45,3 @@ Class ScanArtikelen extends controller{
 
     }
 }
-
-?>

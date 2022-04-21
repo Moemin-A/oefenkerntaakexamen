@@ -110,13 +110,14 @@ class Overzicht extends Controller
     {
         // filter input array maakt de array schoon zodat er geen gekke chars kunnen onstaan en mensen nogsteeds naamsgewijs inkunnen voeren 't veld etc..
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            var_dump($_POST);
             if (!$this->validate(['voornaam', 'achternaam', 'email', 'klas'])) {
 
                 // message voor als het niet lukt
                 echo "het inserten van je artikel is niet gelukt";
                 header("Refresh:2; url=" . URLROOT .  "/overzicht/index/creating-failed");
             } else {
-
+                	
                 try {
 
                     filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
@@ -135,7 +136,7 @@ class Overzicht extends Controller
 
                 if (!empty($row)) {
 
-
+                    // function voor fillselector die je oproept om hierin te werken
                     $records = $this->fillSelector($row->klas);
                 } else {
 

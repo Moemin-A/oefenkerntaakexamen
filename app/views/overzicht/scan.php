@@ -13,14 +13,50 @@
     <title>Scan artikelen</title>
 </head>
 
+
+<br>
+<?php
+
+if (!empty($data['records']))
+    echo '<div class="row">
+            <div class="col">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                        <th scope="col">id</th>
+                            <th scope="col">artikelNaam</th>
+                            <th scope="col">code</th>
+                            <th scope="col">datum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ' .
+        $data['records']
+        . '
+                    </tbody>
+                </table>
+            </div>
+        </div>';
+
+?>
+
+
 <body>
 
+
+    <div style='text-align: center;'>
+        <!-- insert your custom barcode setting your data in the GET parameter "data" -->
+        <img alt='Barcode Generator TEC-IT' src='https://barcode.tec-it.com/barcode.ashx?data=www.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&code=Code128' />
+    </div>
+    <!-- de card -->
     <div style="padding-left: 500px; margin-top: 50px;">
         <div class="card" style="width: 18rem; ">
             <img class="card-img-top" src="../public/img/computer1.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Computer</h5>
                 <p class="card-text">info over computer</p>
+
+
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                     SCAN
@@ -38,56 +74,33 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-
                                 <div style='text-align: center;'>
                                     <!-- insert your custom barcode setting your data in the GET parameter "data" -->
-                                    <img alt='Barcode Generator TEC-IT' src='https://barcode.tec-it.com/barcode.ashx?data=computer-id&code=Code128&translate-esc=on' />
+                                    <img alt='Barcode Generator TEC-IT' src='https://barcode.tec-it.com/barcode.ashx?data=computer&code=Code128&translate-esc=on' />
                                 </div>
+                                <!-- dit scant een land -->
+                                <form action="<?= URLROOT; ?>/ScanArtikelen/scanArtikelLeen" method="post">
+                                    <label for="land">Scan Artikel</label><br>
+                                    <input type="text" id="land" name="artikelNaam" onmouseover="this.focus()" autofocus><br>
+                                    <input type="submit" value="submit">
+                                </form>
+
+                                <!-- save submit -->
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 <button type="button" class="btn btn-primary">Save changes</button>
-                                
-
-                                <form action="<?= URLROOT; ?>/ScanArtikelen/scanArtikelLeen" method="post">
-                                    <label for="land">Scan Artikel</label><br>
-                                    <input type="text" id="land" name="naam" onmouseover="this.focus()" autofocus><br>
-                                    <input type="submit" value="submit">
-                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
 
 
-    <br>
-    <?php
 
-    if (!empty($data['records']))
-        echo '<div class="row">
-            <div class="col">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                            <th scope="col">naam</th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        ' .
-            $data['records']
-            . '
-                    </tbody>
-                </table>
-            </div>
-        </div>';
-
-    ?>
 
 
 
