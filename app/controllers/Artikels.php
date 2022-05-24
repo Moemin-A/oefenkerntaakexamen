@@ -14,8 +14,7 @@ class Artikels extends Controller {
             $records1 = "";
             foreach($artikels->getArtikels(1) as $record){
                 $records1 .= "<tr>
-                <th scope='row'>" . $record->Id . " </th>
-                <td> " . $record->Omschrijving . "</td>
+                <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>
@@ -33,8 +32,7 @@ class Artikels extends Controller {
             $records2 = "";
             foreach($artikels->getArtikels(2) as $record){
                 $records2 .= "<tr>
-                <th scope='row'>" . $record->Id . " </th>
-                <td> " . $record->Omschrijving . "</td>
+                <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
@@ -50,8 +48,7 @@ class Artikels extends Controller {
             $records3 = "";
             foreach($artikels->getArtikels(3) as $record){
                 $records3 .= "<tr>
-                <th scope='row'>" . $record->Id . " </th>
-                <td> " . $record->Omschrijving . "</td>
+                <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
@@ -67,7 +64,7 @@ class Artikels extends Controller {
             $records4 = "";
             foreach($artikels->getArtikels(4) as $record){
                 $records4 .= "<tr>
-                <th scope='row'>" . $record->Id . " </th>
+                <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->Omschrijving . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>

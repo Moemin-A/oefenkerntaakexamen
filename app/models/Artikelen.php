@@ -7,21 +7,21 @@
         }
 
         public function getArtikels($categorie) {
-            $this->db->query("SELECT * FROM artikel WHERE CategorieId = :id ORDER BY `Id` ASC");
+            $this->db->query("SELECT * FROM artikel WHERE CategorieId = :id ORDER BY `Omschrijving` ASC");
             $this->db->bind(":id", $categorie);
             return  $this->db->resultSet();
             
         }
         public function getArtikels1() {
-            $this->db->query("SELECT * FROM artikel WHERE id= 2 ORDER BY `Id` ASC");
+            $this->db->query("SELECT * FROM artikel WHERE id= 2 ORDER BY `Omschrijving` ASC");
             return  $this->db->resultSet();
         }
         public function getArtikels2() {
-            $this->db->query("SELECT * FROM artikel WHERE id= 3 ORDER BY `Id` ASC");
+            $this->db->query("SELECT * FROM artikel WHERE id= 3 ORDER BY `Omschrijving` ASC");
             return  $this->db->resultSet();
         }
         public function getArtikels3() {
-            $this->db->query("SELECT * FROM artikel WHERE id= 4 ORDER BY `Id` ASC");
+            $this->db->query("SELECT * FROM artikel WHERE id= 4 ORDER BY `Omschrijving` ASC");
             return  $this->db->resultSet();
         }
         
@@ -79,10 +79,10 @@
         public function artikelInsert($post) {
             try {
             // prepare sql and bind parameters
-            //var_dump($post);// echo "Hallo";exit();
+            // var_dump($post); echo "Hallo";exit();
 
             $this->db->query("INSERT INTO artikel  (Id, Omschrijving, TijdGeleend, Persoon, CategorieId) 
-                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid");
+                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid)");
 
             $this->db->bind(":id", NULL);
             $this->db->bind(":omschrijving", $post["omschrijving"]);
