@@ -55,7 +55,7 @@
             header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             } catch(PDOException $e) { 
                 echo '<script>alert("Update Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
+                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             }
           
         }
@@ -71,7 +71,7 @@
                 header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             } catch(PDOException $e) { 
                 echo '<script>alert("Delete Failed")</script>' . $e->getMessage(); 
-                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels"); 
+                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
             }
             
         }
@@ -82,7 +82,7 @@
             //var_dump($post);// echo "Hallo";exit();
 
             $this->db->query("INSERT INTO artikel  (Id, Omschrijving, TijdGeleend, Persoon, CategorieId) 
-                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid)");
+                              VALUES (:id, :omschrijving, :tijdgeleend, :persoon, :categorieid");
 
             $this->db->bind(":id", NULL);
             $this->db->bind(":omschrijving", $post["omschrijving"]);
@@ -98,8 +98,8 @@
                 header("Refresh:1; http://oefenkerntaakexamen.nl/artikels/index"); 
             }
             catch(PDOException $e) { 
-                echo '<script>alert("Insert Failed")</script>' . $e->getMessage();exit();
-                header("Refresh:3; http://oefenkerntaakexamen.nl/artikels/index"); 
+                echo '<script>alert("Insert Failed")</script>' . $e->getMessage();
+                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels/index"); 
             }
         }
     }
