@@ -1,5 +1,6 @@
 <?php
 class Artikels extends Controller {
+    
     public $logs;
 
     public function __contstruct(){
@@ -18,12 +19,16 @@ class Artikels extends Controller {
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>
-                <a href='" . URLROOT . "artikels/update/$record->Id'>
+                <a href='" . URLROOT . "artikels/update/$record->Id'
+                data-toggle='tooltip'  data-placement='bottom'
+                title='Update'>
                 <img  src='/img/icons/edit.png' alt='cross'>
                  </a>
                 </td>
                 <td>
-                <a href='" . URLROOT . "artikels/delete/$record->Id'>
+                <a href='" . URLROOT . "artikels/delete/$record->Id'
+                data-toggle='tooltip'  data-placement='bottom'
+                title='Delete'>
                   <img  src='/img/icons/drop.png' alt='cross'>
                  </a>
                 </td></tr>";   
@@ -35,11 +40,15 @@ class Artikels extends Controller {
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
-                <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
+                <td>   <a href='" . URLROOT . "artikels/update/$record->Id'
+                data-toggle='tooltip'  data-placement='bottom'
+                title='Update'>
                 <img  src='/img/icons/edit.png' alt='cross'>
                  </a> </td>
                  <td>
-                 <a href='" . URLROOT . "artikels/delete/$record->Id'>
+                 <a href='" . URLROOT . "artikels/delete/$record->Id'
+                 data-toggle='tooltip'  data-placement='bottom'
+                 title='Delete'>
                    <img  src='/img/icons/drop.png' alt='cross'>
                   </a>
                  </td></tr>";    
@@ -52,10 +61,14 @@ class Artikels extends Controller {
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
-                <img  src='/img/icons/edit.png' alt='cross'>
+                <img  src='/img/icons/edit.png' alt='cross'
+                data-toggle='tooltip'  data-placement='bottom'
+                title='Update'>
                  </a> </td>
                  <td>
-                 <a href='" . URLROOT . "artikels/delete/$record->Id'>
+                 <a href='" . URLROOT . "artikels/delete/$record->Id'
+                 data-toggle='tooltip'  data-placement='bottom'
+                 title='Delete'>
                    <img  src='/img/icons/drop.png' alt='cross'>
                   </a>
                  </td></tr>";      
@@ -68,10 +81,14 @@ class Artikels extends Controller {
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
-                <img  src='/img/icons/edit.png' alt='cross'>
+                <img  src='/img/icons/edit.png' alt='cross'
+                data-toggle='tooltip'  data-placement='bottom'
+                title='Update'>
                  </a> </td>
                  <td>
-                 <a href='" . URLROOT . "artikels/delete/$record->Id'>
+                 <a href='" . URLROOT . "artikels/delete/$record->Id'
+                 data-toggle='tooltip'  data-placement='bottom'
+                 title='Delete'>
                    <img  src='/img/icons/drop.png' alt='cross'>
                   </a>
                  </td></tr>";       

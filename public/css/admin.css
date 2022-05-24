@@ -13,6 +13,76 @@ body{
    background-color: #f3f5f9;
 }
 
+/* Startup intro */
+.intro .banner{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.intro h1{
+  font-size: 50px;
+  text-shadow: 2px 2px #000000;
+}
+
+@media (max-width: 924px) {
+  .intro h1 {
+    font-size: 30px;
+  }
+}
+
+/* Splash screen */
+.intro{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #4d4a56;
+  transition: 1s;
+}
+
+.banner-header{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.banner{
+  position: relative;
+  display: inline-block;
+  bottom: -20px;
+  opacity: 0;
+}
+
+.banner.active{
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 0.5s;
+}
+
+.banner.fade{
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 0.5s;
+}
+
+/* Tooltip */
+.tooltip > .tooltip-inner {
+  background-color: #121833;
+  color: #f3f3f3;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  border: 2px solid black; 
+  padding: 10px;
+  font-size: 18px;
+}
+
+
 .wrapper{
   display: flex;
   position: relative;
@@ -119,3 +189,4 @@ button:hover {
 button:focus {
 	outline: none;
 }
+
