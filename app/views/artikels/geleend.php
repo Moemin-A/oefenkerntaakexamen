@@ -98,7 +98,7 @@
     <center> <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">omschrijving</th>
+      <th scope="col">Omschrijving</th>
       <th scope="col">Tijd Geleend</th>
       <th scope="col">Persoon</th>
       <th> </th>

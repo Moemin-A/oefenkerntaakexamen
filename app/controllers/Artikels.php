@@ -65,7 +65,6 @@ class Artikels extends Controller {
             foreach($artikels->getArtikels(4) as $record){
                 $records4 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
-                <td> " . $record->Omschrijving . "</td>
                 <td> " . $record->TijdGeleend . "</td>
                 <td> " . $record->Persoon . "</td>
                 <td>   <a href='" . URLROOT . "artikels/update/$record->Id'>
