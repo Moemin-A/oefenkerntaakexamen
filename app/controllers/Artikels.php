@@ -1,7 +1,5 @@
 <?php
 class Artikels extends Controller {
-    
-    public $logs;
 
     public function __contstruct(){
       $this->artikelModel = $this->model('Artikelen');
