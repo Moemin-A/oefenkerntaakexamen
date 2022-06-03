@@ -51,11 +51,9 @@
             $this->db->execute();
 
             // Checks for success / errors and prints message accordingly
-            echo '<script>alert("Updated successfully")</script>';
-            header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
+            header("Refresh:2; url = " . URLROOT . "artikels/updating-success"); 
             } catch(PDOException $e) { 
-                echo '<script>alert("Update Failed")</script>' . $e->getMessage(); 
-                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
+            header("Refresh:2; url = " . URLROOT . "artikels/creating-success"); 
             }
           
         }
@@ -67,11 +65,9 @@
                 $this->db->execute();
 
                 // Checks for success / errors and prints message accordingly
-                echo '<script>alert("Deleted artikel successfully")</script>';
-                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
+                header("Refresh:2; url = " . URLROOT . "artikels/deleting-success"); 
             } catch(PDOException $e) { 
-                echo '<script>alert("Delete Failed")</script>' . $e->getMessage(); 
-                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels"); 
+                header("Refresh:2; url = " . URLROOT . "artikels/creating-failed");  
             }
             
         }
@@ -94,12 +90,10 @@
             $this->db->execute();//exit();
 
             // Checks for success / errors and prints message accordingly
-                echo '<script>alert("New records created successfully")</script>';
-                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels/index"); 
+                header("Refresh:2; url = " . URLROOT . "artikels/creating-success"); 
             }
             catch(PDOException $e) { 
-                echo '<script>alert("Insert Failed")</script>' . $e->getMessage();
-                header("Refresh:1; http://oefenkerntaakexamen.nl/artikels/index"); 
+                header("Refresh:2; url = " . URLROOT . "artikels/creating-failed"); 
             }
         }
     }

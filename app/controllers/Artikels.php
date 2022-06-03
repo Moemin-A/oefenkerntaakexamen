@@ -5,7 +5,43 @@ class Artikels extends Controller {
       $this->artikelModel = $this->model('Artikelen');
     }
     // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
-    public function index() {
+    public function index($message = "") {
+
+        $alert = "";
+        if (!empty($message)) {
+            switch ($message) {
+                case 'creating-success':
+                    $alert .= '<div class="alert alert-success" role="alert">
+                    Artikel is succesvol toegevoegd!
+                    </div>';
+                    break;
+                case 'creating-failed':
+                    $alert .= '<div class="alert alert-danger" role="alert">
+                    Er is iets fout gegaan met het toevoegen.
+                    </div>';
+                    break;
+                case 'updating-success':
+                    $alert .= '<div class="alert alert-success" role="alert">
+                    Artikel is succesvol vernieuwd!
+                    </div>';
+                    break;
+                case 'updating-failed':
+                    $alert .= '<div class="alert alert-danger" role="alert">
+                    Er is iets fout gegaan met het vernieuwen.
+                    </div>';
+                    break;
+                case 'deleting-success':
+                    $alert .= '<div class="alert alert-success" role="alert">
+                    Artikel is succesvol verwijderd!
+                    </div>';
+                    break;
+                case 'deleting-failed':
+                    $alert .= '<div class="alert alert-danger" role="alert">
+                    Er is iets fout gegaan met het verwijderen.
+                    </div>';
+                    break;
+            }
+        }
         
        $artikels = $this->model('Artikelen');
 
@@ -106,7 +142,7 @@ class Artikels extends Controller {
 
         // var_dump($data);
 
-        $this->view('/artikels/geleend', $data);
+        $this->view('artikels/geleend', $data);
     }
     // Artikels updaten en naar de update view sturen
     public function update($Id = null){
@@ -126,7 +162,7 @@ class Artikels extends Controller {
                 'row' => $row
             ];
           
-          $this->view('/artikels/update', $data);
+          $this->view('artikels/update', $data);
         }
 
     }
@@ -149,7 +185,7 @@ class Artikels extends Controller {
             
         }else{
     
-            $this->view('/artikels/artikel-toevoegen');
+            $this->view('artikels/artikel-toevoegen');
         }
         
     }
