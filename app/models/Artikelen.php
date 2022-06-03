@@ -53,7 +53,7 @@
             // Checks for success / errors and prints message accordingly
             header("Refresh:2; url = " . URLROOT . "artikels/updating-success"); 
             } catch(PDOException $e) { 
-            header("Refresh:2; url = " . URLROOT . "artikels/creating-success"); 
+            header("Refresh:2; url = " . URLROOT . "artikels/updating-failed"); 
             }
           
         }
@@ -67,7 +67,7 @@
                 // Checks for success / errors and prints message accordingly
                 header("Refresh:2; url = " . URLROOT . "artikels/deleting-success"); 
             } catch(PDOException $e) { 
-                header("Refresh:2; url = " . URLROOT . "artikels/creating-failed");  
+                header("Refresh:2; url = " . URLROOT . "artikels/deleting-failed");  
             }
             
         }
