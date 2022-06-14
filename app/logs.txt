@@ -1,0 +1,1 @@
+[14-Jun-2022 15:30:26 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\models\Artikelen.php on line 55

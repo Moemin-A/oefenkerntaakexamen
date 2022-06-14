@@ -1,4 +1,5 @@
 <?php
+    
     //Database params
     define('DB_HOST', 'localhost'); //Add your db host
     define('DB_USER', 'root'); // Add your DB root
@@ -15,6 +16,7 @@
     define('SITENAME', 'Magazijn Beheer');
 
     // Logs 
+    date_default_timezone_set('Europe/Amsterdam');
     ini_set('display_errors', 1);
     ini_set('log_errors', 1);
     ini_set('error_log', '../app/logs.txt');

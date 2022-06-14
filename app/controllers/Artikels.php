@@ -163,6 +163,7 @@ class Artikels extends Controller {
             ];
           
           $this->view('artikels/update', $data);
+          
         }
 
     }
