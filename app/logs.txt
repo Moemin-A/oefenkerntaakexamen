@@ -1,1 +1,19 @@
 [14-Jun-2022 15:30:26 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\models\Artikelen.php on line 55
+[14-Jun-2022 15:40:01 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Database.php:28
+Stack trace:
+#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\models\Artikelen.php(35): Database->query('SELECT * FROM a...')
+#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php(158): Artikelen->getSingleArtikel('20')
+#2 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php(45): Artikels->update('20')
+#3 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
+#4 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
+#5 {main}
+  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Database.php on line 28
+[14-Jun-2022 15:40:05 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Database.php:28
+Stack trace:
+#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\models\Artikelen.php(35): Database->query('SELECT * FROM a...')
+#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php(158): Artikelen->getSingleArtikel('20')
+#2 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php(45): Artikels->update('20')
+#3 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
+#4 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
+#5 {main}
+  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Database.php on line 28
