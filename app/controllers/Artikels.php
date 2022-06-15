@@ -4,10 +4,11 @@ class Artikels extends Controller {
     public function __contstruct(){
       $this->artikelModel = $this->model('Artikelen');
     }
-    // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
+  
     public function index($message = "") {
 
-        if (!empty($message)) {
+    // Als message leeg is switch case maken met goed / fout meldingen
+    if (!empty($message)) {
             switch ($message) {
                 case 'reading-failed':
                     echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
@@ -53,8 +54,9 @@ class Artikels extends Controller {
                     break;
             }
         }
-        
-       $artikels = $this->model('Artikelen');
+       
+    // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
+    $artikels = $this->model('Artikelen');
 
         try{
             $records1 = "";
@@ -183,7 +185,6 @@ class Artikels extends Controller {
         $artikels->deleteArtikel($Id);
 
     }
-
     // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
     public function insertAanvraag() {
