@@ -121,7 +121,7 @@ class Artikels extends Controller {
             }
 
             $records4 = "";
-            foreach($artikels->getArtikels(4) as $record){
+            foreach($artikels->getArtikels(1) as $record){
                 $records4 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>

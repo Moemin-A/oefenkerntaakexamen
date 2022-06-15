@@ -8,34 +8,23 @@ class Artikelen
         $this->db = new Database;
     }
 
+    //  Selects all artikels in artikel depending on categorie number
     public function getArtikels($categorie)
     {
         $this->db->query("SELECT * FROM artikel WHERE CategorieId = :id ORDER BY `Omschrijving` ASC");
         $this->db->bind(":id", $categorie);
         return  $this->db->resultSet();
     }
-    public function getArtikels1()
-    {
-        $this->db->query("SELECT * FROM artikel WHERE id= 2 ORDER BY `Omschrijving` ASC");
-        return  $this->db->resultSet();
-    }
-    public function getArtikels2()
-    {
-        $this->db->query("SELECT * FROM artikel WHERE id= 3 ORDER BY `Omschrijving` ASC");
-        return  $this->db->resultSet();
-    }
-    public function getArtikels3()
-    {
-        $this->db->query("SELECT * FROM artikel WHERE id= 4 ORDER BY `Omschrijving` ASC");
-        return  $this->db->resultSet();
-    }
 
+    // Fetches artikel id and returns to updatecontroller
     public function getSingleArtikel($Id)
     {
         $this->db->query("SELECT * FROM artikel WHERE Id = :id");
         $this->db->bind(':id', $Id, PDO::PARAM_INT);
         return $this->db->single();
     }
+
+    // After artikel id is fetched update artikel 
     public function updateArtikel($post)
     {
         try {
@@ -64,6 +53,7 @@ class Artikelen
         }
     }
 
+    // Gets id from record in controller and deletes chosen artikel
     public function deleteArtikel($Id)
     {
         try {
@@ -78,6 +68,7 @@ class Artikelen
         }
     }
 
+    // Fetches post request from controller submit and inserts artikel
     public function artikelInsert($post)
     {
         try {
