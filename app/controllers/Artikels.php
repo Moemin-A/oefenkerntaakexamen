@@ -10,33 +10,47 @@ class Artikels extends Controller {
         $alert = "";
         if (!empty($message)) {
             switch ($message) {
-                case 'creating-success':
-                    $alert .= '<div class="alert alert-success" role="alert">
-                    Artikel is succesvol toegevoegd!
+                case 'reading-failed':
+                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                    Kan de schema niet lezen, probeer het later opnieuw.
                     </div>';
+                    header("Refresh: 3; /pages/index");
+                    break;
+                case 'creating-success':
+                    echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                    Succesvol toegevoegd.
+                    </div>';
+                    header("Refresh: 3; /artikels");
                     break;
                 case 'creating-failed':
-                    $alert .= '<div class="alert alert-danger" role="alert">
-                    Er is iets fout gegaan met het toevoegen.
+                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                    Er is iets fout gegaan bij het toevoegen.
                     </div>';
+                    header("Refresh: 5; /artikels");
                     break;
                 case 'updating-success':
-                    header("Refresh:5; url = " . URLROOT . "index"); 
+                    echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                    Succesvol vernieuwd.
+                    </div>';
+                    header("Refresh: 3; /artikels");
                     break;
                 case 'updating-failed':
-                    $alert .= '<div class="alert alert-danger" role="alert">
-                    Er is iets fout gegaan met het vernieuwen.
+                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                    Er is iets fout gegaan bij het vernieuwen.
                     </div>';
+                    header("Refresh: 5; /artikels");
                     break;
                 case 'deleting-success':
-                    $alert .= '<div class="alert alert-success" role="alert">
-                    Artikel is succesvol verwijderd!
+                    echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+                    Succesvol verwijderd.
                     </div>';
+                    header("Refresh: 3; /artikels");
                     break;
                 case 'deleting-failed':
-                    $alert .= '<div class="alert alert-danger" role="alert">
-                    Er is iets fout gegaan met het verwijderen.
+                    echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+                    Er is iets fout gegaan bij het verwijderen.
                     </div>';
+                    header("Refresh: 5; /artikels");
                     break;
             }
         }
@@ -127,8 +141,7 @@ class Artikels extends Controller {
             }
 
         }catch(PDOException $e){ 
-            array_push($this->logs, "Failed database connection" . $e->getMessage());
-            $records = "Database Failed";
+            header("Refresh:1; url = " . URLROOT . "artikels/reading-failed");
         }
         // Data bewaren in een array en naar magazijn view sturen
         $data = [
