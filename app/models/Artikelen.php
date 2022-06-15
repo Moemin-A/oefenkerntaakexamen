@@ -58,7 +58,7 @@ class Artikelen
 
             // Checks for success / errors and prints message accordingly
 
-            header("Refresh:1; url = " . URLROOT . "artikels/index/updating-success"); 
+            header("Refresh:1; url = " . URLROOT . "artikels/updating-success"); 
         } catch (PDOException $e) {
             header("Refresh:1; url = " . URLROOT . "artikels/updating-failed");
         }

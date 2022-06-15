@@ -21,9 +21,7 @@ class Artikels extends Controller {
                     </div>';
                     break;
                 case 'updating-success':
-                    $alert .= '<div class="alert alert-success" role="alert">
-                    Artikel is succesvol vernieuwd!
-                    </div>';
+                    header("Refresh:5; url = " . URLROOT . "index"); 
                     break;
                 case 'updating-failed':
                     $alert .= '<div class="alert alert-danger" role="alert">
