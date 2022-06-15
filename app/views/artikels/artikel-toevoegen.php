@@ -54,7 +54,7 @@
         <tr>
             <td>
                 <label for="tgl">Tijd Geleend</label><br>
-                <input type="text" id="tijdgeleend" name="tijdgeleend" required><br><br>
+                <input type="time" id="tijdgeleend" name="tijdgeleend"  min="09:00" max="18:00" required><br><br>
             </td>
         </tr>
         <tr>

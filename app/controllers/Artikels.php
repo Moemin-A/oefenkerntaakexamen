@@ -7,7 +7,6 @@ class Artikels extends Controller {
     // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
     public function index($message = "") {
 
-        $alert = "";
         if (!empty($message)) {
             switch ($message) {
                 case 'reading-failed':
@@ -121,7 +120,7 @@ class Artikels extends Controller {
             }
 
             $records4 = "";
-            foreach($artikels->getArtikels(1) as $record){
+            foreach($artikels->getArtikels(4) as $record){
                 $records4 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
@@ -184,6 +183,7 @@ class Artikels extends Controller {
         $artikels->deleteArtikel($Id);
 
     }
+
     // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
     public function insertAanvraag() {
