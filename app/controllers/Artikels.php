@@ -1,5 +1,14 @@
 <?php
-class Artikels extends Controller {
+
+namespace TDD\controllers;
+
+use TDD\libraries\Controller;
+
+use \PDOException;
+
+
+class Artikels extends Controller
+ {
 
     public function __contstruct()
     {
@@ -144,7 +153,7 @@ class Artikels extends Controller {
             }
 
         } catch (PDOException $e) { 
-            header("Refresh:1; url = " . URLROOT . "artikels/reading-failed");
+            header("Refresh:3; url = " . URLROOT . "artikels/reading-failed");
         }
         // Data bewaren in een array en naar magazijn view sturen
         $data = [
@@ -206,6 +215,11 @@ class Artikels extends Controller {
             $this->view('artikels/artikel-toevoegen');
         }
         
+    }
+
+    public function sayMyName($name)
+    {
+        return "Hallo mijn naam is : " . $name;
     }
     
 }

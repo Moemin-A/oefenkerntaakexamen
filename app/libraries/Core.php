@@ -26,7 +26,8 @@
       require_once '../app/controllers/'. $this->currentController . '.php';
 
       // Instantiate controller class
-      $this->currentController = new $this->currentController;
+      $cls = 'TDD\\controllers\\' . $this->currentController;
+      $this->currentController = new $cls();
 
       // Check for second part of url
       if(isset($url[1])){

@@ -1,4 +1,5 @@
 <?php
+
     class Database {
         private $dbHost = DB_HOST;
         private $dbUser = DB_USER;

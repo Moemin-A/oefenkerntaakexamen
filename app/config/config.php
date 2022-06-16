@@ -17,6 +17,7 @@
 
     // Logs 
     date_default_timezone_set('Europe/Amsterdam');
+    $ip  = "Remote IP Address: " . $_SERVER["REMOTE_ADDR"] . "\t";
     ini_set('display_errors', 1);
     ini_set('log_errors', 1);
     ini_set('error_log', '../app/logs.txt');
