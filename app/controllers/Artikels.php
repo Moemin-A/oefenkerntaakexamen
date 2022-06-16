@@ -1,11 +1,13 @@
 <?php
 class Artikels extends Controller {
 
-    public function __contstruct(){
+    public function __contstruct()
+    {
       $this->artikelModel = $this->model('Artikelen');
     }
   
-    public function index($message = "") {
+    public function index($message = "") 
+    {
 
     // Als message leeg is switch case maken met goed / fout meldingen
     if (!empty($message)) {
@@ -58,9 +60,9 @@ class Artikels extends Controller {
     // Artikels tonen in de juiste categoriën en naar de geleend view sturen 
     $artikels = $this->model('Artikelen');
 
-        try{
+        try {
             $records1 = "";
-            foreach($artikels->getArtikels(1) as $record){
+            foreach ($artikels->getArtikels(1) as $record) {
                 $records1 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
@@ -82,7 +84,7 @@ class Artikels extends Controller {
             }
 
             $records2 = "";
-            foreach($artikels->getArtikels(2) as $record){
+            foreach ($artikels->getArtikels(2) as $record) {
                 $records2 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
@@ -102,7 +104,7 @@ class Artikels extends Controller {
             }
 
             $records3 = "";
-            foreach($artikels->getArtikels(3) as $record){
+            foreach ($artikels->getArtikels(3) as $record) {
                 $records3 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
@@ -122,7 +124,7 @@ class Artikels extends Controller {
             }
 
             $records4 = "";
-            foreach($artikels->getArtikels(4) as $record){
+            foreach ($artikels->getArtikels(4) as $record) {
                 $records4 .= "<tr>
                 <th scope='row'>" . $record->Omschrijving . " </th>
                 <td> " . $record->TijdGeleend . "</td>
@@ -141,7 +143,7 @@ class Artikels extends Controller {
                  </td></tr>";       
             }
 
-        }catch(PDOException $e){ 
+        } catch (PDOException $e) { 
             header("Refresh:1; url = " . URLROOT . "artikels/reading-failed");
         }
         // Data bewaren in een array en naar magazijn view sturen
@@ -157,15 +159,16 @@ class Artikels extends Controller {
         $this->view('artikels/geleend', $data);
     }
     // Artikels updaten en naar de update view sturen
-    public function update($Id = null){
+    public function update($Id = null)
+    {
         // Als $_SERVER in POST zit voer update script uit,
-        if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
             $artikels = $this->model('Artikelen');
             $artikels->updateArtikel($_POST);
             
-        }else{
+        } else {
             $artikels = $this->model('Artikelen');
             $row = $artikels->getSingleArtikel($Id);
 
@@ -180,23 +183,25 @@ class Artikels extends Controller {
 
     }
     //  DeleteController die de Id meeneemt en naar deleteArtikel() modell stuurd
-    public function delete($Id){
+    public function delete($Id)
+    {
         $artikels = $this->model('Artikelen');
         $artikels->deleteArtikel($Id);
 
     }
     // InsertController die als je niet in POST zit naar de artikel toevoegen view stuurd
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
-    public function insertAanvraag() {
+    public function insertAanvraag() 
+    {
         
-        if ($_SERVER["REQUEST_METHOD"] == "POST"){
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
             // var_dump($_POST);exit();
             $artikels = $this->model('Artikelen');
             $artikels->artikelInsert($_POST);
             
-        }else{
+        } else {
     
             $this->view('artikels/artikel-toevoegen');
         }
