@@ -46,7 +46,7 @@
             </select><br><br>
             <!-- Tijd Geleend -->
             <label for="tgl">Tijd Geleend</label><br>
-            <input type="time" id="tijdgeleend" name="tijdgeleend"   min="09:00" max="18:00 value="<?=$data["row"]->TijdGeleend?>"required><br><br>
+            <input type="time" id="tijdgeleend" name="tijdgeleend" min="09:00" max="18:00" value="<?=$data["row"]->TijdGeleend?>"required><br><br>
             <!-- Persoon -->
             <label for="prs">PersoonNummer</label><br>
             <input type="number" id="persoon" name="persoon" value="<?=$data["row"]->Persoon?>"required><br><br>

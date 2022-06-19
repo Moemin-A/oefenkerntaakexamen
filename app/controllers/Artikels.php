@@ -224,42 +224,7 @@ class Artikels extends Controller
                 'persoonError' => ''
             ];
 
-            $omschrijvingValidation = "/^[a-zA-Z]*$/";
-            $persoonValidation = "/^[0-9]*$/";
-
-            if (empty($data['omschrijving'])){
-                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                Vul de omschrijving in.
-                </div>';
-            }elseif (filter_var($data['omschrijving'], FILTER_VALIDATE_EMAIL)){
-                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                U heeft een emailadres ingevuld, graag een artikelomschrijving invullen
-                </div>';
-            }elseif (!preg_match($omschrijvingValidation, $data['omschrijving'])){
-                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                U mag alleen (hoofd)letters gebruiken voor de artikelomschrijving.
-                </div>';
-            }
-
-            if (empty($data['tijdgeleend'])){
-                $data['tijdgeleendError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                Vul de tijd in.
-                </div>';
-            }
-
-            if (empty($data['persoon'])){
-                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                Vul het persoonsnummer in.
-                </div>';
-            }/*elseif (filter_var($data['persoon'], FILTER_VALIDATE_INT)){
-                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                U heeft geen geheel getal ingevuld.
-                </div>';}*/
-            elseif (!preg_match($persoonValidation, $data['persoon'])){
-                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
-                U heeft een letter ingevuld, vul graag een persoonsnummer invullen.
-                </div>';
-            }
+            $data = $this->validateCreateForm($data);
 
             if (empty($data['omschrijvingError']) && empty($data['tijdgeleendError']) && empty($data['persoonError'])) {
                 $artikels = $this->model('Artikelen');
@@ -275,6 +240,47 @@ class Artikels extends Controller
     public function sayMyName($name)
     {
         return "Hallo mijn naam is : " . $name;
+    }
+
+    private function validateCreateForm($data) {
+
+        $omschrijvingValidation = "/^[a-zA-Z]*$/";
+        $persoonValidation = "/^[0-9]*$/";
+
+        if (empty($data['omschrijving'])){
+            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            Vul de omschrijving in.
+            </div>';
+        }elseif (filter_var($data['omschrijving'], FILTER_VALIDATE_EMAIL)){
+            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft een emailadres ingevuld, graag een artikelomschrijving invullen
+            </div>';
+        }elseif (!preg_match($omschrijvingValidation, $data['omschrijving'])){
+            $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U mag alleen (hoofd)letters gebruiken voor de artikelomschrijving.
+            </div>';
+        }
+
+        if (empty($data['tijdgeleend'])){
+            $data['tijdgeleendError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            Vul de tijd in.
+            </div>';
+        }
+
+        if (empty($data['persoon'])){
+            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            Vul het persoonsnummer in.
+            </div>';
+        }/*elseif (filter_var($data['persoon'], FILTER_VALIDATE_INT)){
+            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft geen geheel getal ingevuld.
+            </div>';}*/
+        elseif (!preg_match($persoonValidation, $data['persoon'])){
+            $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+            U heeft een letter ingevuld, vul graag een persoonsnummer invullen.
+            </div>';
+        }
+        return $data;
     }
     
 }

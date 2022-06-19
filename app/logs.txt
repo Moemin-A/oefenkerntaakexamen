@@ -114,3 +114,579 @@
 [19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
 [19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
 [19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:29:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:30:21 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:05 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:32:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:45 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:46 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:214
+[19-Jun-2022 18:33:51 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:216
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:216
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:216
+[19-Jun-2022 18:34:04 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:09 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:11 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:14 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:215
+[19-Jun-2022 18:34:17 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 34
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'Id' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 34
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 38
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'Omschrijving' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 38
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 42
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'CategorieId' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 42
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 50
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'TijdGeleend' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 50
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 54
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'Persoon' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 54
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 56
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Notice:  Trying to get property 'Id' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 56
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:01 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 34
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'Id' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 34
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 38
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'Omschrijving' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 38
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 42
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'CategorieId' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 42
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 50
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'TijdGeleend' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 50
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 54
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'Persoon' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 54
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Undefined index: row in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 56
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Notice:  Trying to get property 'Id' of non-object in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 56
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:204
+[19-Jun-2022 18:36:08 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:212
+[19-Jun-2022 18:36:30 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:49 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:213
+[19-Jun-2022 18:36:53 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Notice:  Undefined index: omschrijvingError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 39
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:189
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Notice:  Undefined index: tijdgeleendError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 51
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:189
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Notice:  Undefined index: persoonError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\update.php on line 55
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->update() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:189
+[19-Jun-2022 18:37:20 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
