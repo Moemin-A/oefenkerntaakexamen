@@ -1,42 +1,116 @@
-[16-Jun-2022 12:41:54 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:43:42 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:43:42 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:44:04 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:44:08 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Artikels' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:44:33 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
-[16-Jun-2022 12:44:33 Europe/Amsterdam] PHP Fatal error:  Uncaught Error: Class 'Pages' not found in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:29
-Stack trace:
-#0 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php(10): Core->__construct()
-#1 C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php(2): require_once('C:\\Users\\Infer\\...')
-#2 {main}
-  thrown in C:\Users\Infer\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php on line 29
+[19-Jun-2022 17:13:37 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 17:14:00 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP Notice:  Undefined index: categorieidError in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\views\artikels\artikel-toevoegen.php on line 54
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   5. TDD\controllers\Artikels->view() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:247
+[19-Jun-2022 17:15:47 Europe/Amsterdam] PHP   6. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Controller.php:17
+[19-Jun-2022 17:43:20 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 254
+[19-Jun-2022 17:43:26 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 254
+[19-Jun-2022 17:43:30 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 254
+[19-Jun-2022 17:44:01 Europe/Amsterdam] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 254
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 238
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:02:24 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:238
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:07:41 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:17 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:35 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:36 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:37 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:38 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP Warning:  preg_match(): Compilation failed: range out of order in character class at offset 4 in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:40 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP Notice:  Undefined variable: persoonValidation in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP Warning:  preg_match(): Empty regular expression in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:44 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP Notice:  Undefined variable: persoonValidation in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP Warning:  preg_match(): Empty regular expression in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:50 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP Notice:  Undefined variable: persoonValidation in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP Warning:  preg_match(): Empty regular expression in C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php on line 258
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP Stack trace:
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   1. {main}() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:0
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   2. require_once() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\public\index.php:2
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   3. Core->__construct() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\require.php:10
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   4. TDD\controllers\Artikels->insertAanvraag() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\libraries\Core.php:46
+[19-Jun-2022 18:08:54 Europe/Amsterdam] PHP   5. preg_match() C:\Users\Moemin\OneDrive\OneDrive\Documenten\GitHub\oefenkerntaakexamen\app\controllers\Artikels.php:258

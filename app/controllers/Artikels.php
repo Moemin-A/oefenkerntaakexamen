@@ -202,17 +202,72 @@ class Artikels extends Controller
     // Als dit wel zo is word je doorgestuurd naar de insertAanvraag() model
     public function insertAanvraag() 
     {
+        // Initialiseer het $data array
+        $data = [
+            'omschrijving' => '',
+            'omschrijvingError' => '',
+            'tijdgeleend' => '',
+            'tijdgeleendError' => '',
+            'persoon' => '',
+            'persoonError' => ''
+        ];
         
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_FULL_SPECIAL_CHARS);
-            // var_dump($_POST);exit();
-            $artikels = $this->model('Artikelen');
-            $artikels->artikelInsert($_POST);
-            
-        } else {
-    
-            $this->view('artikels/artikel-toevoegen');
+            $data = [
+                'omschrijving' => trim($_POST['omschrijving']),
+                'omschrijvingError' => '',
+                'tijdgeleend' => trim($_POST['tijdgeleend']),
+                'tijdgeleendError' => '',
+                'persoon' => trim($_POST['persoon']),
+                'persoonError' => ''
+            ];
+
+            $omschrijvingValidation = "/^[a-zA-Z]*$/";
+            $persoonValidation = "/^[0-9]*$/";
+
+            if (empty($data['omschrijving'])){
+                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                Vul de omschrijving in.
+                </div>';
+            }elseif (filter_var($data['omschrijving'], FILTER_VALIDATE_EMAIL)){
+                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                U heeft een emailadres ingevuld, graag een artikelomschrijving invullen
+                </div>';
+            }elseif (!preg_match($omschrijvingValidation, $data['omschrijving'])){
+                $data['omschrijvingError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                U mag alleen (hoofd)letters gebruiken voor de artikelomschrijving.
+                </div>';
+            }
+
+            if (empty($data['tijdgeleend'])){
+                $data['tijdgeleendError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                Vul de tijd in.
+                </div>';
+            }
+
+            if (empty($data['persoon'])){
+                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                Vul het persoonsnummer in.
+                </div>';
+            }/*elseif (filter_var($data['persoon'], FILTER_VALIDATE_INT)){
+                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                U heeft geen geheel getal ingevuld.
+                </div>';}*/
+            elseif (!preg_match($persoonValidation, $data['persoon'])){
+                $data['persoonError'] = '<div class="alert alert-danger mt-10 w-55 mx-auto text-center" role="alert">
+                U heeft een letter ingevuld, vul graag een persoonsnummer invullen.
+                </div>';
+            }
+
+            if (empty($data['omschrijvingError']) && empty($data['tijdgeleendError']) && empty($data['persoonError'])) {
+                $artikels = $this->model('Artikelen');
+                $artikels->artikelInsert($_POST);
+            }
+
+        } {
+            $this->view('artikels/artikel-toevoegen', $data);
         }
         
     }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Artikel Toevoegen</title>
 
-    <!-- Required meta tags -->
+    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,6 +24,7 @@
     </div>
 
     <div class="main_content">
+    
     <div class="container">
     <div class="col-12" id="header-text" style="border-bottom-style:hidden; ">
     <h1 style="padding-bottom: 50px; padding-top: 50px;">
@@ -37,7 +38,8 @@
         <tr>
             <td>
                 <label for="omschrijving">Omschrijving:</label><br>
-                <input type="text" id="omschrijving" name="omschrijving" required><br><br>
+                <input type="text" id="omschrijving" name="omschrijving" value="<?= $data['omschrijving']; ?>"><br><br>
+                <div><?= $data['omschrijvingError']; ?></div>
             </td>
         </tr> 
         <tr>
@@ -54,13 +56,15 @@
         <tr>
             <td>
                 <label for="tgl">Tijd Geleend</label><br>
-                <input type="time" id="tijdgeleend" name="tijdgeleend"  min="09:00" max="18:00" required><br><br>
+                <input type="time" id="tijdgeleend" name="tijdgeleend"  min="09:00" max="18:00" value="<?= $data['tijdgeleend']; ?>"><br><br>
+                <div><?= $data['tijdgeleendError']; ?></div>
             </td>
         </tr>
         <tr>
             <td>
                 <label for="prs">Persoon</label><br>
-                <input type="number" id="persoon" name="persoon"  required><br><br>
+                <input type="number" id="persoon" name="persoon" value="<?= $data['persoon']; ?>"><br><br>
+                <div><?= $data['persoonError']; ?></div>
           </td>
         </tr>
              </td>
